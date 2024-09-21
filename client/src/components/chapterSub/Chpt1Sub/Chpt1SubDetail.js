@@ -1,0 +1,21 @@
+export const Chpt1SubDetail=[
+{title:"বিশ্বগ্রাম",
+    name:"global-village"
+},
+{title:"ভার্চুয়াল রিয়েলিটি",
+    name:"virtual-reality"},
+{title:"আর্টিফিসিয়াল ইন্টেলিজেন্স",
+    name:"artificial-intelligence"},
+{title:"রোবটিক্স",
+    name:"robotics"},
+{title:"ক্রায়োসার্জারি",
+    name:"cryosurgery"},
+{title:"জেনেটিক ইঞ্জিনিয়ারিং",
+    name:"genetic-engineering"},
+{title:"ন্যানোটেকনোলজি",
+    name:"nano-technology"},
+{title:"বায়োইনফরমেটিক্স",
+    name:"bio-informatics"},
+    {title:"ভার্চুয়াল রিয়েলিটি",
+        name:"virtual-reality"},
+]

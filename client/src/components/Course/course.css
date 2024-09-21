@@ -1,0 +1,56 @@
+.modal-dialog {
+  max-width: 1000px;
+}
+.modal-header {
+  border-bottom: 0;
+}
+
+.modal-content {
+  padding: 20px;
+}
+.form-label {
+  font-size: 16px;
+}
+
+.Instruction {
+  color: rgb(0, 16, 105);
+}
+.paymentContainer {
+  b {
+    color: rgb(1, 33, 114);
+  }
+  input,
+  select:focus {
+    outline: 0 !important;
+    box-shadow: none !important;
+  }
+}
+
+#copyText:hover {
+  i {
+    color: rgb(216, 81, 81);
+    transition: all 0.5s ease;
+  }
+  b {
+    color: rgb(98, 130, 235);
+    transition: all 0.5s ease;
+  }
+}
+@media screen and (max-width: 575px) {
+  .paymentRight {
+    margin-top: 30px;
+    text-align: center !important;
+  }
+  .modal-content {
+    padding: 0;
+  }
+  .courseRow {
+    flex-direction: column-reverse;
+  }
+  .faqRight {
+    margin-top: 10px;
+  }
+}
+.courseTitle {
+  color: darkblue;
+}

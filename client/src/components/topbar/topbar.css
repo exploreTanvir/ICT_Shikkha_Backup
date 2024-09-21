@@ -1,0 +1,23 @@
+.topbar {
+  background: #140148;
+  color: white;
+
+  @media (max-width: 767px) {
+    display: none;
+  }
+  .row {
+    height: 45px;
+    a {
+      color: white;
+    }
+  }
+
+  div,
+  p {
+    font-family: roboto !important;
+  }
+}
+.socialIcon i:hover {
+  transform: translateY(-5px);
+  transition: all 0.5s ease;
+}

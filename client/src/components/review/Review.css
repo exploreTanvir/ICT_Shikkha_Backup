@@ -1,0 +1,97 @@
+.review {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  background: rgb(1, 16, 180);
+}
+.reviewModal {
+  background: rgb(102, 2, 149);
+  &:hover {
+    background: rgb(1, 16, 180);
+  }
+}
+.swiper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  @media (max-width: 350px) {
+    padding-bottom: 40px;
+  }
+}
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 350px;
+  box-shadow: 0 15px 50px rgba(0, 0, 0, 0.2);
+  filter: blur(4px);
+  background: #d1ebff;
+  border-radius: 10px;
+
+  @media (max-width: 350px) {
+    width: 290px;
+    height: 360px;
+  }
+}
+.swiper-slide-active {
+  filter: blur(0);
+  background: white;
+}
+.testimonialBox {
+  position: relative;
+  width: 100%;
+  padding: 40px 20px;
+
+  color: #5e5e5e;
+}
+.testimonialImg {
+  width: 22%;
+  margin-bottom: 20px;
+}
+.content p:first-child {
+  text-align: justify;
+}
+.quote {
+  position: absolute;
+  top: 20px;
+  left: 30px;
+  opacity: 0.2;
+}
+
+.detail h4 {
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: #10028b;
+  line-height: 1.1em;
+}
+.detail span {
+  font-size: 12px;
+}
+.imgBox img {
+  width: 70px;
+  height: 70px !important;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 10px;
+}
+.swiper-slide-shadow-right,
+.swiper-slide-shadow-left {
+  background-image: none;
+}
+@media (max-width: 350px) {
+  .testimonialImg {
+    width: 15%;
+  }
+  .content p {
+    font-size: 14px;
+  }
+}
+
+.reviewModalBox {
+  max-width: 800px;
+  height: 100%;
+  .modal-content {
+    background: rgb(188, 213, 224) !important;
+  }
+}

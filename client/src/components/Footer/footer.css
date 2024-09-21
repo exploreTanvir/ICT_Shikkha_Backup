@@ -1,0 +1,63 @@
+#footer {
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.811), rgba(0, 0, 2, 0.331)),
+    url(../../assets/2660738-rad-programs-opps-3.avif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: roboto, sans-serif;
+
+  h4 {
+    overflow: hidden;
+    color: white;
+  }
+}
+#footer a {
+  text-decoration: none;
+  color: white !important;
+  &:hover {
+    color: rgb(133, 133, 255) !important;
+  }
+}
+.footerLogo {
+  width: 120px;
+  height: 70px;
+}
+.copy {
+  height: 3rem;
+  border-top: 1px solid #5f5f5f;
+}
+.lastIcon a:hover {
+  transform: translateY(-5px);
+  transition: all 0.5s ease;
+}
+@media (max-width: 575px) {
+  .footerRow {
+    margin-left: 15px;
+  }
+
+  .footerTop h4 {
+    font-size: 23px;
+  }
+  .copy h6 {
+    font-size: 12px;
+  }
+}
+.footer:hover a {
+  color: #89c8ffd5;
+  transform: translateY(-5px) !important;
+  transition: all 0.4s ease;
+}
+@media (max-width: 1400px) {
+  .footerTop {
+    img {
+      width: 100px;
+    }
+    h4 {
+      font-size: 20px;
+    }
+  }
+  #footer {
+    p {
+      font-size: 15px !important;
+    }
+  }
+}

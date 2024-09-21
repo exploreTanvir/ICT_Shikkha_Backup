@@ -1,0 +1,21 @@
+.textFormetting {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px auto;
+}
+
+.textFormetting th,
+td {
+  border: 2px solid #ada7ff;
+  text-align: center;
+  padding: 10px;
+}
+
+.textFormetting th {
+  background-color: #003366;
+  color: white;
+}
+
+.textFormetting tr:nth-child(even) {
+  background-color: #e6eefc;
+}

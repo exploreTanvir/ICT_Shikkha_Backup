@@ -1,0 +1,27 @@
+.ictBooks {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.9),
+    rgba(216, 212, 241, 1)
+  );
+
+  .faqImg {
+    height: 30rem;
+    width: 39rem;
+    width: 100%;
+    @media (max-width: 575px) {
+      display: none;
+    }
+  }
+}
+
+.book1 {
+  overflow: hidden;
+  border-radius: 7px;
+  margin: 10px 0;
+}
+
+.book1:hover {
+  transform: scale(1.03);
+  transition: all 0.5s ease;
+}

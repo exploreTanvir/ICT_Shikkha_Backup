@@ -1,0 +1,37 @@
+.app-container {
+  display: flex;
+}
+
+.sidebar {
+  width: 25%;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+.profile-info {
+  margin-bottom: 20px;
+}
+
+.profile-container {
+  width: 75%;
+  padding: 20px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+.sidebar-nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar-nav ul li {
+  margin: 10px 0;
+}
+
+.sidebar-nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
