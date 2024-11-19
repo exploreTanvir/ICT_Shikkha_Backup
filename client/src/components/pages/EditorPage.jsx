@@ -12,7 +12,7 @@ const EditorPage = () => {
         <Nav/>
         <Editor cText="h2{
                             color: darkblue;
-                        }
+                        } 
                         button{
                             padding: 10px 15px;
                             border-radius: 5px;

@@ -42,8 +42,31 @@ const Course = () => {
       </div>
 
       <div className="container">
+        
         <div className="row courseRow">
+        
           <div className="col-lg-8 faqRight">
+          <h2 className="fw-bold fs-2 mt-3">{course.tilte}</h2>
+          <div className="row my-4 mb-5">
+
+          <div className="col-lg-1 col-sm-2 d-flex gap-2 align-items-center">               
+                    <img className="Instructor w-100" src={course.instructor} alt="" />
+                  </div>
+
+          <div className="col-lg-2 col-sm-4 gap-2">
+                    <h5>কোর্স ইন্সট্রাক্টর</h5>
+                    <h6>{course.instructorName}</h6>
+                  </div>
+
+          <div className="col-lg-2 col-sm-4 gap-2">
+                    <h5>ক্যাটাগরি</h5>
+                    <h6>একাডেমিক</h6>
+                  </div>
+          <div className="col-lg-3 col-sm-4 gap-2">
+                    <h5>কোর্স সার্টিফিকেট</h5>
+                    <h6>সার্টিফিকেট থাকবে না</h6>
+                  </div>
+          </div>
             <div className="accordion accordion-flush" id="accordionFlushExample">
               <div className="accordion-item">
                 <h2 className="accordion-header rounded" id="panelsStayOpen-headingOne">
@@ -275,18 +298,30 @@ const Course = () => {
                   </button>
                 </div>
                 <div className="desc mt-4">
-                  <p>
-                    <i className="fa-solid fa-user-group me-2"></i>কোর্সটি করছেন {course.people} জন
+                 <div className="d-flex justify-content-between border-bottom">
+                 <p>
+                    <i className="fa-solid fa-user-group me-2"></i>কোর্সটি করছেন 
                   </p>
+                  <p>{course.people} জন</p>
+                 </div>
+                 <div className="d-flex justify-content-between border-bottom mt-1">
                   <p>
-                    <i className="fa-solid fa-stopwatch me-2"></i>সময় লাগবে {course.time}
+                    <i className="fa-solid fa-stopwatch me-2"></i>সময় লাগবে 
                   </p>
+                  <p>{course.time}</p>
+                  </div>
+                  <div className="d-flex justify-content-between border-bottom mt-1">
                   <p>
-                    <i className="fa-regular fa-circle-play me-2"></i>{course.vdo} টি ভিডিও
+                    <i className="fa-regular fa-circle-play me-2"></i> ভিডিও
                   </p>
+                  <p>{course.vdo} টি</p>
+                  </div>
+                  <div className="d-flex justify-content-between border-bottom mt-1">
                   <p>
-                    <i className="fa-solid fa-calendar-days me-2"></i>সময়সীমা {course.mnth} মাস
+                    <i className="fa-solid fa-calendar-days me-2"></i>সময়সীমা 
                   </p>
+                  <p>{course.mnth} মাস</p>
+                  </div>
                 </div>
                 </div>
               </div>

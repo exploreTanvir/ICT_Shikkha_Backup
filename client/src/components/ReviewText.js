@@ -1,13 +1,13 @@
 import tanvir from "../assets/tanvir.png";
 // import user2 from "../assets/user2.jpg";
-import asif from "../assets/asif.png";
+import asif from "../assets/user.jpg";
 import ferdous from "../assets/ferdous.png";
-import mahmudullah from "../assets/mahmudullah.png";
-import maruf from "../assets/maruf.png";
+import mahmudullah from "../assets/user.jpg";
+import maruf from "../assets/user.jpg";
 import nasim from "../assets/nasim.png";
-import nayeem from "../assets/nayeem.png";
+import nayeem from "../assets/user.jpg";
 import rasel from "../assets/rasel.png";
-import rohan from "../assets/rohan.png";
+import rohan from "../assets/user.jpg";
 import sakib from "../assets/sakib.png";
 import shahin from "../assets/shahin.png";
 import yamin from "../assets/yamin.png";
@@ -55,31 +55,31 @@ export const ReviewText=[
    
     {
         title:"এই প্ল্যাটফর্মটি আমার শেখার অভিজ্ঞতাকে এক নতুন উচ্চতায় নিয়ে গেছে। আমি যখনই সময় পাই, তখনই কোর্সগুলো করতে পারি এবং প্রতিটি লেসন এমনভাবে সাজানো যে তা সহজেই বুঝতে পারা যায়। যারা কাজের চাপে থেকেও নিজেদের শিক্ষাকে অগ্রসর করতে চান, তাদের জন্য এটি একটি আদর্শ মাধ্যম।",
-      name:"মাহমুদুল্লাহ",
+      name:"ইউজার-১",
       work:"ব্যাচ-২",
       img:mahmudullah
   },
     {
         title:"আমার দক্ষতা বাড়ানোর জন্য একটি নমনীয় উপায়ের প্রয়োজন ছিল এবং এই প্ল্যাটফর্মটি ছিল নিখুঁত সমাধান। যে প্রকল্প ব্যবস্থাপনা কোর্সটি আমি নিয়েছিলাম তা ব্যাপক এবং সর্বশেষ শিল্প চর্চার সাথে আপ-টু-ডেট ছিল। বাস্তব জগতের কেস স্টাডি এবং ইন্টারেক্টিভ উপাদানগুলো শেখাকে উপভোগ্য এবং বাস্তবসম্মত করেছে।",
-        name:"রোহান হাঁসান",
+        name:"ইউজার-২",
         work:"ব্যাচ-৩",
         img:rohan
 
     },
     {
         title:"এই প্ল্যাটফর্মটি আমার শেখার অভিজ্ঞতাকে এক নতুন উচ্চতায় নিয়ে গেছে। আমি যখনই সময় পাই, তখনই কোর্সগুলো করতে পারি এবং প্রতিটি লেসন এমনভাবে সাজানো যে তা সহজেই বুঝতে পারা যায়। যারা কাজের চাপে থেকেও নিজেদের শিক্ষাকে অগ্রসর করতে চান, তাদের জন্য এটি একটি আদর্শ মাধ্যম।",
-        name:"মারুফ হাসান",
+        name:"ইউজার-৩",
         work:"ব্যাচ-২",
         img:maruf
     },
     {
         title:"এই প্ল্যাটফর্মটি আমার শেখার অভিজ্ঞতাকে এক নতুন উচ্চতায় নিয়ে গেছে। আমি যখনই সময় পাই, তখনই কোর্সগুলো করতে পারি এবং প্রতিটি লেসন এমনভাবে সাজানো যে তা সহজেই বুঝতে পারা যায়। যারা কাজের চাপে থেকেও নিজেদের শিক্ষাকে অগ্রসর করতে চান, তাদের জন্য এটি একটি আদর্শ মাধ্যম।",
-        name:"নাইম হাসান",
+        name:"ইউজার-৪",
         work:"ব্যাচ-২",
         img:nayeem
     },{
         title:"আমার দক্ষতা বাড়ানোর জন্য একটি নমনীয় উপায়ের প্রয়োজন ছিল এবং এই প্ল্যাটফর্মটি ছিল নিখুঁত সমাধান। যে প্রকল্প ব্যবস্থাপনা কোর্সটি আমি নিয়েছিলাম তা ব্যাপক এবং সর্বশেষ শিল্প চর্চার সাথে আপ-টু-ডেট ছিল। বাস্তব জগতের কেস স্টাডি এবং ইন্টারেক্টিভ উপাদানগুলো শেখাকে উপভোগ্য এবং বাস্তবসম্মত করেছে।",
-        name:"আসিফ",
+        name:"ইউজার-৫",
         work:"ব্যাচ-৩",
         img:asif
 
