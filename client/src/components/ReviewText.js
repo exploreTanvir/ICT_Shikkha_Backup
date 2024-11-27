@@ -1,15 +1,11 @@
 import tanvir from "../assets/tanvir.png";
 // import user2 from "../assets/user2.jpg";
-import asif from "../assets/user.jpg";
 import ferdous from "../assets/ferdous.png";
-import mahmudullah from "../assets/user.jpg";
-import maruf from "../assets/user.jpg";
 import nasim from "../assets/nasim.png";
-import nayeem from "../assets/user.jpg";
 import rasel from "../assets/rasel.png";
-import rohan from "../assets/user.jpg";
 import sakib from "../assets/sakib.png";
 import shahin from "../assets/shahin.png";
+import { default as asif, default as mahmudullah, default as maruf, default as nayeem, default as rohan } from "../assets/user.jpg";
 import yamin from "../assets/yamin.png";
 
 export const ReviewText=[

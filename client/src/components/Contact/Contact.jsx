@@ -80,7 +80,10 @@ const Contact = () => {
                 <i className="fa-solid fa-location-dot"></i>
                 <h3>ঠিকানা</h3>
                 <p>
-                  মাগুরা পুলিশ লাইন,মাগুরা
+                  মাগুরা পুলিশ লাইন, মাগুরা
+                </p>
+                <p>  
+                  ভায়না মোড়, মাগুরা
                 </p>
               </div>
               <div className="sub-form col-md-5 col-sm-12">

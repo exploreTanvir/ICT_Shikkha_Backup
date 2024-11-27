@@ -51,7 +51,17 @@
   .faqRight {
     margin-top: 10px;
   }
+  .courseTop {
+    display: none !important;
+  }
 }
 .courseTitle {
   color: darkblue;
+}
+.Instructors {
+  width: 100px;
+}
+.card {
+  position: sticky;
+  top: 90px;
 }

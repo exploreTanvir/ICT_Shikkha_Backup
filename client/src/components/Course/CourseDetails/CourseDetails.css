@@ -1,0 +1,49 @@
+.course-details {
+  font-family: "Arial", sans-serif;
+  margin: 20px;
+}
+
+.tabs {
+  display: flex;
+  border-bottom: 2px solid #ccc;
+  margin-bottom: 20px;
+}
+
+.tabs button {
+  padding: 10px 20px;
+  cursor: pointer;
+  border: none;
+  background: none;
+  font-size: 16px;
+  font-weight: bold;
+  color: #555;
+  border-bottom: 2px solid transparent;
+}
+
+.tabs button.active {
+  color: rgb(1, 33, 114);
+  border-bottom: 2px solid rgb(245, 121, 121);
+}
+
+.content {
+  padding: 20px;
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.content h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.content p {
+  line-height: 1.6;
+  color: #333;
+}
+.courseDetailIcon {
+  color: rgb(1, 33, 114);
+}
+.CourseDetailUl {
+  line-height: 30px;
+}

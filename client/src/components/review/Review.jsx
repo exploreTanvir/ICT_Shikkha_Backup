@@ -78,7 +78,7 @@ const Review = () => {
        <div key={index} className="testimonialBox">
         <img src={swipIMG} className='testimonialImg' alt="" />
         
-            <div className="content">
+            <div className="contents">
           <p>{item.title}</p>
           <div className="detail d-flex justify-content-between">
             <div className="imgBox">
